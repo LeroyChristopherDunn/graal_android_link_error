@@ -1,0 +1,103 @@
+/home/leroy/Programs/graalvm-ce-java11-20.2.0-dev/bin/java -Dmaven.multiModuleProjectDirectory=/home/leroy/IdeaProjects/androidlinkerror -Dmaven.home=/home/leroy/Programs/idea-IC-191.7479.19/plugins/maven/lib/maven3 -Dclassworlds.conf=/home/leroy/Programs/idea-IC-191.7479.19/plugins/maven/lib/maven3/bin/m2.conf -javaagent:/home/leroy/Programs/idea-IC-191.7479.19/lib/idea_rt.jar=45303:/home/leroy/Programs/idea-IC-191.7479.19/bin -Dfile.encoding=UTF-8 -classpath /home/leroy/Programs/idea-IC-191.7479.19/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar org.codehaus.classworlds.Launcher -Didea.version2019.1.3 com.gluonhq:client-maven-plugin:0.1.29:build
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building androidlinkerror 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- client-maven-plugin:0.1.29:build (default-cli) @ androidlinkerror ---
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building androidlinkerror 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> client-maven-plugin:0.1.29:compile (default-cli) > process-classes @ androidlinkerror >>>
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ androidlinkerror ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ androidlinkerror ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/leroy/IdeaProjects/androidlinkerror/target/classes
+[INFO]
+[INFO] <<< client-maven-plugin:0.1.29:compile (default-cli) < process-classes @ androidlinkerror <<<
+[INFO]
+[INFO] --- client-maven-plugin:0.1.29:compile (default-cli) @ androidlinkerror ---
+[Fri Aug 14 15:51:00 SAST 2020][INFO] ==================== COMPILE TASK ====================
+             _______  ___      __   __  _______  __    _
+            |       ||   |    |  | |  ||       ||  |  | |
+            |    ___||   |    |  | |  ||   _   ||   |_| |
+            |   | __ |   |    |  |_|  ||  | |  ||       |
+            |   ||  ||   |___ |       ||  |_|  ||  _    |
+            |   |_| ||       ||       ||       || | |   |
+            |_______||_______||_______||_______||_|  |__|
+
+    Access to the latest docs, tips and tricks and more info on
+    how to get support? Register your usage of Gluon Substrate now at
+
+    https://gluonhq.com/activate
+
+
+
+[Fri Aug 14 15:51:02 SAST 2020][INFO] We will now compile your code for aarch64-linux-android. This may take some time.
+[Fri Aug 14 15:51:16 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]    classlist:   9,248.88 ms,  0.96 GB
+[Fri Aug 14 15:51:18 SAST 2020][INFO] [SUB] WARNING: Using an older version of the labsjdk-11.
+[Fri Aug 14 15:51:19 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]        (cap):     742.86 ms,  0.96 GB
+[Fri Aug 14 15:51:21 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]        setup:   5,558.92 ms,  0.96 GB
+[Fri Aug 14 15:53:14 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]     (clinit):   1,589.24 ms,  3.07 GB
+[Fri Aug 14 15:53:14 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]   (typeflow):  48,272.21 ms,  3.07 GB
+[Fri Aug 14 15:53:14 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]    (objects):  55,051.02 ms,  3.07 GB
+[Fri Aug 14 15:53:14 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]   (features):   4,819.57 ms,  3.07 GB
+[Fri Aug 14 15:53:14 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]     analysis: 112,371.96 ms,  3.07 GB
+[Fri Aug 14 15:53:18 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]     universe:   3,480.77 ms,  3.07 GB
+[Fri Aug 14 15:53:45 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]      (parse):  26,096.75 ms,  3.80 GB
+[Fri Aug 14 15:54:06 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]     (inline):  20,675.25 ms,  4.54 GB
+[Fri Aug 14 15:55:49 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]    (compile): 103,557.61 ms,  4.38 GB
+[Fri Aug 14 15:55:54 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]      compile: 155,531.37 ms,  4.38 GB
+[Fri Aug 14 15:56:10 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]        image:  16,175.38 ms,  4.32 GB
+[Fri Aug 14 15:56:11 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]        write:   1,081.19 ms,  4.32 GB
+[Fri Aug 14 15:56:11 SAST 2020][INFO] [SUB] [hellofx.hellofx:9408]      [total]: 304,922.83 ms,  4.32 GB
+[INFO]
+[INFO] --- client-maven-plugin:0.1.29:link (default-cli) @ androidlinkerror ---
+[Fri Aug 14 15:56:12 SAST 2020][INFO] ==================== LINK TASK ====================
+[Fri Aug 14 15:56:12 SAST 2020][INFO] [SUB] /home/leroy/.gluon/substrate/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.gold: error: /home/leroy/IdeaProjects/androidlinkerror/target/client/aarch64-android/gvm/lib/libjnidispatch.a:1:1: invalid character
+[Fri Aug 14 15:56:15 SAST 2020][INFO] [SUB] clang: error: linker command failed with exit code 1 (use -v to see invocation)
+[Fri Aug 14 15:56:15 SAST 2020][SEVERE] Process link failed with result: 1
+Check the log files under /home/leroy/IdeaProjects/androidlinkerror/target/client/aarch64-android/gvm/log
+And please check https://docs.gluonhq.com/client/ for more information.
+[Fri Aug 14 15:56:15 SAST 2020][INFO] Logging process [link] to file: /home/leroy/IdeaProjects/androidlinkerror/target/client/log/process-link-1597413375808.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[Fri Aug 14 15:56:15 SAST 2020][SEVERE] Linking failed.
+Check the log files under /home/leroy/IdeaProjects/androidlinkerror/target/client/aarch64-android/gvm/log
+And please check https://docs.gluonhq.com/client/ for more information.
+[INFO] Total time: 05:19 min
+[INFO] Finished at: 2020-08-14T15:56:15+02:00
+[INFO] Final Memory: 18M/70M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.gluonhq:client-maven-plugin:0.1.29:link (default-cli) on project androidlinkerror: Linking failed -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 05:23 min
+[INFO] Finished at: 2020-08-14T15:56:15+02:00
+[INFO] Final Memory: 11M/47M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.gluonhq:client-maven-plugin:0.1.29:build (default-cli) on project androidlinkerror: Error, client:build failed -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+Process finished with exit code 1
